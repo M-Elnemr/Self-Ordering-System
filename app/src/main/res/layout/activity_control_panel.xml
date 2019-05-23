@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ControlPanel"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/tableEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Add Table Number"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:inputType="number"/>
+
+
+    <Button
+        android:id="@+id/tableBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Add"
+        android:textSize="22sp" />
+
+</LinearLayout>
